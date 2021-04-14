@@ -1,13 +1,19 @@
 // Import your components CSS files here.
+
+//font-family: 'Lobster', cursive;
+//font-family: 'Roboto', sans-serif;
 @import "alert";
 @import "avatar";
 @import "navbar";
 
 body{
   background-color: #fbe0c4;
+  font-family: 'Roboto', sans-serif;
 }
 
 .title{
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
   text-align: center;
 }
 

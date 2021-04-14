@@ -3,5 +3,7 @@ class Restaurant < ApplicationRecord
   validates :address, presence: true
   validates :category, presence: true
 
-  has_many :reviews
+  validates :category, inclusion: { in: %w[chinese italian japanese french belgian] }
+
+  has_many :reviews, dependent: :destroy
 end

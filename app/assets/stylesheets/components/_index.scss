@@ -55,3 +55,37 @@ body{
 }
 
 
+// show css
+
+.restaurant-content{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-radius: 20px;
+  background-color: #fff;
+}
+.img-restaurant-show{
+  height: 780px;
+  width: 550px;
+}
+
+
+.btn-add-review{
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: #2978b5;
+  color: #fff;
+}
+
+.btn-edit-restaurant{
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: #2978b5;
+  color: #fff;
+}
+
+.btn-delete-restaurant{
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: #ce1212;
+  color: #fff;
+}

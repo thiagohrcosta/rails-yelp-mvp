@@ -1,6 +1,5 @@
 
-# Last Articles
-
+# Yelp MVP
 ![main banner](https://github.com/thiagohrcosta/rails-yelp-mvp/blob/master/public/img/restaurants1.png?raw=true)
 
 

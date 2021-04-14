@@ -9,3 +9,7 @@
 <% end %>
 
 <%= link_to "Add a new review", new_restaurant_review_path(@restaurant) %>
+
+<%= link_to "Edit restaurant", edit_restaurant_path(@restaurant) %>
+
+<%= link_to "Delete restaurant", destroy_restaurant_path(@restaurant), method: :delete, data: { confirm: "Are you sure?"} %>

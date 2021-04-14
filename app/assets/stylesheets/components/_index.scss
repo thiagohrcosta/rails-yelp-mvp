@@ -2,3 +2,50 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+body{
+  background-color: #fbe0c4;
+}
+
+.title{
+  text-align: center;
+}
+
+.img-restaurant{
+  width: 100%;
+  height: 290px
+}
+
+.text-restaurant-name{
+  text-align: center;
+  color: #fff;
+  background-color: #2978b5;
+  height: 30px;
+  padding: 3px;
+}
+
+.text-restaurant-name a{
+  color: #fff;
+}
+
+.box-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 10px;
+}
+
+.box-restaurant{
+  margin: 10px 0;
+  border: 1px solid #999;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-add{
+  border-radius: 20px;
+  padding: 5px 25px;
+  background-color: #2978b5;
+  color: #fff;
+}
+
+

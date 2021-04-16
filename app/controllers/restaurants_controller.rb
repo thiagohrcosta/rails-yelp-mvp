@@ -25,7 +25,7 @@ class RestaurantsController < ApplicationController
   end
 
   def update
-    @restaurant = Restaurant.new(params[:id])
+    @restaurant = Restaurant.find(params[:id])
     if @restaurant.update(restaurant_params)
       redirect_to restaurant_path(@restaurant)
     else

@@ -32,6 +32,7 @@ body{
 
 .text-restaurant-name a{
   color: #fff;
+  text-decoration: none;
 }
 
 .box-flex{
@@ -88,6 +89,11 @@ body{
   border-radius: 10px;
   padding: 10px 25px;
   background-color: #2978b5;
+  color: #fff;
+}
+
+.btn-remove a{
+  text-decoration: none;
   color: #fff;
 }
 
